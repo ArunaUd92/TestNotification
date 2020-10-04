@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "a80e492b-9d81-40c0-a661-5272b963256e",
+		"name": "Test Notification",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Check Push Notification - Topics (global)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "key=AAAAinz-alo:APA91bFC8n1VPm7qk4QTaAqxMLi_pi_6Iw3FoXSWcx45b3WrvBGi5c6BlqnRhi197tuROAXBk4lECPbhHjbem4qCH0sVAEjSPZ6iZDiZwGHmZ1Y6VKfU-w5CD6FosKPEcJMxo0JGBwEr"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n{\n    \"to\" : \"/topics/global\",\n    \"notification\" : {\n        \"title\" : \"2020-52\",\n        \"body\" : \"ubble Watches Exploding Star Fade into Oblivion\",\n        \"content_available\" : true,\n        \"priority\" : \"high\"\n    },\n    \"data\" : {\"news_id\": \"2020-52\", \"name\": \"Hubble Watches Exploding Star Fade into Oblivion\", \"url\": \"https://hubblesite.org/contents/news-releases/2020/news-2020-52\"}\n}\n\n"
+				},
+				"url": {
+					"raw": "https://fcm.googleapis.com/fcm/send",
+					"protocol": "https",
+					"host": [
+						"fcm",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"fcm",
+						"send"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

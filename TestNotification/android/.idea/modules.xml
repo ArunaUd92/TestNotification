@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestNotification.iml" filepath="$PROJECT_DIR$/.idea/modules/TestNotification.iml" group="TestNotification" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="TestNotification/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1117718637/react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/1117718637/react-native-community_masked-view.iml" group="TestNotification/react-native-community_masked-view" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/588563971/react-native-firebase.iml" filepath="$PROJECT_DIR$/.idea/modules/588563971/react-native-firebase.iml" group="TestNotification/react-native-firebase" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/958901514/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/958901514/react-native-gesture-handler.iml" group="TestNotification/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1262245133/react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-1262245133/react-native-safe-area-context.iml" group="TestNotification/react-native-safe-area-context" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1492618955/react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/1492618955/react-native-screens.iml" group="TestNotification/react-native-screens" />
+    </modules>
+  </component>
+</project>
